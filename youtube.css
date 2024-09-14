@@ -1,0 +1,114 @@
+     .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 16px;
+        padding: 20px;
+                     
+      }
+
+      @media (max-width: 750px) {
+        .video-grid{
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media(min-width:751px) and (max-width:999){
+        .video-grid{
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+      }
+
+      
+      @media (min-width: 1000px) {
+        .video-grid{
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+      }
+
+
+      .thumbnail{
+       width: 100%;  
+         
+      }
+
+      .thumbnail-row{
+        position: relative;
+       
+      }
+
+      .notifications{
+        position: relative;
+      }
+
+      .notifications-count{
+        position: absolute;
+        background-color: rgb(223, 36, 36);
+        color: white;
+       border-radius: 10px;
+       top: -2px;
+       right: -5px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 11px;
+       padding-left: 6px;
+       padding-right: 6px;
+       padding-top: 2px;
+       padding-bottom: 2px;
+      }
+
+
+      .video-time{
+        background-color: black;
+        color: white;
+        position:absolute;
+        right: 5px;
+        bottom: 12px;
+        padding: 2px;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+       
+        
+      }
+
+      .video-tittle{
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .profile-pic{
+        border-radius: 50px;
+        width: 50px;
+        }      
+
+      .video-author,
+      .video-stats{
+        color: gray;
+        font-weight: lighter;
+        font-size: 13px;
+        margin-bottom: 5px;      
+      }
+
+      .video-author{
+        margin-bottom: 5px; 
+        color: gray;     
+
+      }
+
+      .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr; 
+        margin-top: 5px;      
+      } 
+
+      .profile-pic{
+      border-radius: 50px;
+      width: 40px;
+      }
+
+     
+
+      
